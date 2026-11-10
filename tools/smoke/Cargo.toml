@@ -1,0 +1,10 @@
+[package]
+name = "schematica-smoke"
+edition = "2024"
+version = "0.1.0"
+[dependencies]
+anyhow = "1"
+wasmtime = { version = "=44.0.1", default-features = false, features = ["component-model", "anyhow", "winch", "runtime", "std"] }
+
+
+serde_json = "1"

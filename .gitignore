@@ -1,0 +1,11 @@
+/work/
+/mod/target/
+/tools/smoke/target/
+*.wasm
+*.exe
+*.zip
+*.scb
+*.schematic
+*.schem
+*.litematic
+*.mcstructure
